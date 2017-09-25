@@ -43,6 +43,6 @@ $(document).ready(function(){
     withdrawl(account, withdrawlPoke);
     $("#balance").text("");
     $("#balance").append(account.inputName + ": " + account.inputParty);
-    $("#withdrawl").val("");
+    $("#withdrawInput").val("");
   });
 });
