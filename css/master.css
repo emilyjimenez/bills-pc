@@ -1,0 +1,12 @@
+#deposit, #withdrawl {
+  display: none;
+}
+
+.header {
+  float: left;
+  margin-right: 10px;
+}
+
+img {
+  margin-right: 5px;
+}

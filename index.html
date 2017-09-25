@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Bill's PC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img class="header" src="img/bills_PC.png" alt="Blue on computer">
+        </div>
+        <div class="col-md-10">
+          <h1>Bill's PC</h1>
+          <h3>Pokemon Storage System</h3>
+          <p class="lead">To access Bill's PC to store your pokemon, please first create an account and deposit one pokemon.</p>
+        </div>
+      </div>
+      <br>
+      <form id="account">
+        <label>Name</label>
+        <input id="userName" type="text" placeholder="Your Name">
+        <label><img src="img/pokeball.png" alt="pokeball">Initial Pokemon Deposit</label>
+        <input id="initialPoke" type="text" placeholder="Pokemon Name">
+        <button type="submit" name="button" class="btn btn-primary">Make Account</button>
+      </form>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="deposit">
+            <label>Deposit</label>
+            <input id="depositInput"type="text" placeholder="Pokemon Name">
+            <button type="submit" name="button" class="btn btn-success">Deposit!</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <form id="withdrawl">
+            <label>Withdrawl</label>
+            <input id="withdrawInput" type="text" placeholder="Pokemon Name">
+            <button type="submit" name="button" class="btn btn-warning">Withdraw!</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <span id="balance"></span>
+      </div>
+    </div>
+  </body>
+</html>
